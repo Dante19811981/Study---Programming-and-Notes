@@ -1,0 +1,13 @@
+#Entrada de Dados para o cálculo das médias
+cont = 0
+num_alunos = int(input("Insira o total de alunos na sua sala: "))
+
+
+#Processamento dos Dados 
+while cont < num_alunos:
+    nota1 = float(input("Insira a primeira nota do aluno: "))
+    nota2 = float(input("Insira a segunda nota do aluno: "))
+    nota3 = float(input("Insira a terceira nota do aluno: "))
+    media = (nota1 + nota2 + nota3)/3
+    print(f"A média do aluno é: {media}")
+    cont = cont + 1
